@@ -1,0 +1,32 @@
+#status-bar {
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  display: flex;
+    /*justify-content: space-between; but not center*/
+    /*this is css hack*/
+    justify-content: center;
+
+    
+  }
+  .status-bar_column {
+    width: 33%;
+  }
+
+  .status-bar_column:first-child span {
+    margin: 5px 10px;
+  }
+  .status-bar_column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+  }
+  .status-bar_column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .status-bar_column .fa-battery-quarter {
+    margin: 0px 5px;
+  }

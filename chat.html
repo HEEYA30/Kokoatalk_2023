@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <!--href="폴더/파일.확장자"-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Nico - kokoatalk</title>
+  </head>
+
+  <body id="chat-screen">
+    <div id="status-bar">
+      <div class="status-bar_column">
+        <span>No Service</span>
+
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar_column">
+        <span>04:30</span>
+      </div>
+      <div class="status-bar_column">
+        <span>7%</span>
+        <!--battery, lightening icon-->
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"> <i class="fas fa-chevron-left fa-lg"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Nico</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-bars"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, April, 16, 2023</div>
+      <div class="message-row">
+        <img
+          src="https://mblogthumb-phinf.pstatic.net/MjAyMDEwMDVfODAg/MDAxNjAxODI4NDE2NDgz.IljaPVp2fmghytygHsPAtAc2UcNi8QQ24Ai-MYZirhAg.8v-Shv-UXZzMYl0mpgW8QH5JO9NCTsKfBo8aKWRJZawg.JPEG.dmx777/SE-574fc58d-abb1-442e-a19b-317921fb30ad.jpg?type=w800"
+        />
+        <div class="message-row__contents">
+          <span class="message-row__author">Nico</span>
+          <div class="message-row__info">
+            <span class="message-row__dialog">I love CSS</span>
+            <span class="message-row__time">04:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row-own">
+        <div class="message-row__contents">
+          <div class="message-row__info">
+            <span class="message-row__dialog"
+              >I'm gonna be the same, soon :></span
+            >
+            <span class="message-row__time">04:16</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message.." />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big :x</span>
+    </div>
+
+    <script
+      src="http://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
