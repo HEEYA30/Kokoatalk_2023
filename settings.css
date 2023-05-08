@@ -1,3 +1,12 @@
+.alt-header__column {
+    margin-top: 1%;
+
+}
+
+.settings-list {
+    margin-top: 10%;
+}
+
 .settings-list__setting {
     padding: 30px 5px;
     border-bottom: var(--main-border);
